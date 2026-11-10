@@ -1,5 +1,5 @@
 /* ==========================================================================
-   PORTAFOLIO PROFESIONAL - ING. ALEJANDRO BARROETA (UMAD)
+   PORTAFOLIO PROFESIONAL - ING. ALAN TELLO (UMAD)
    ESTILOS MODERNOS, RESPONSIVOS Y GLASSMORPHISM DE ALTO RENDIMIENTO
    ========================================================================== */
 
@@ -195,20 +195,6 @@ img {
   color: var(--primary-light);
   background: rgba(99, 102, 241, 0.12);
   border: 1px solid rgba(99, 102, 241, 0.25);
-}
-
-.nav-cta-btn {
-  background: linear-gradient(135deg, var(--primary), var(--purple));
-  color: #fff !important;
-  font-weight: 600 !important;
-  padding: 0.55rem 1.1rem !important;
-  border-radius: var(--radius-full) !important;
-  box-shadow: 0 4px 12px var(--primary-glow);
-}
-
-.nav-cta-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 18px var(--primary-glow);
 }
 
 .mobile-menu-toggle {
@@ -571,10 +557,6 @@ img {
 .badge-academic { background: rgba(99, 102, 241, 0.15); color: #a5b4fc; border: 1px solid rgba(99, 102, 241, 0.3); }
 .badge-hackathon { background: rgba(239, 68, 68, 0.15); color: #fca5a5; border: 1px solid rgba(239, 68, 68, 0.3); }
 .badge-international { background: rgba(6, 182, 212, 0.15); color: #67e8f9; border: 1px solid rgba(6, 182, 212, 0.3); }
-.badge-expo { background: rgba(245, 158, 11, 0.15); color: #fcd34d; border: 1px solid rgba(245, 158, 11, 0.3); }
-.badge-personal { background: rgba(16, 185, 129, 0.15); color: #6ee7b7; border: 1px solid rgba(16, 185, 129, 0.3); }
-.badge-sap { background: rgba(37, 99, 235, 0.15); color: #93c5fd; border: 1px solid rgba(37, 99, 235, 0.3); }
-.badge-social { background: rgba(139, 92, 246, 0.15); color: #c4b5fd; border: 1px solid rgba(139, 92, 246, 0.3); }
 
 .section-title {
   font-size: 2.2rem;
@@ -730,279 +712,6 @@ img {
   border-radius: var(--radius-sm);
   border: 1px solid var(--border-color);
 }
-
-/* ==========================================================================
-   ALGORITHM LAB & VIEWER
-   ========================================================================== */
-.algo-lab-container {
-  background: var(--bg-card);
-  border: 1px solid var(--border-color);
-  border-radius: var(--radius-lg);
-  overflow: hidden;
-  box-shadow: var(--shadow-lg);
-  display: grid;
-  grid-template-columns: 340px 1fr;
-  min-height: 680px;
-}
-
-.algo-sidebar {
-  background: rgba(0, 0, 0, 0.25);
-  border-right: 1px solid var(--border-color);
-  display: flex;
-  flex-direction: column;
-}
-
-.algo-sidebar-header {
-  padding: 1.25rem;
-  border-bottom: 1px solid var(--border-color);
-}
-
-.algo-sidebar-header h3 {
-  font-size: 1rem;
-  margin-bottom: 0.5rem;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.algo-search-box {
-  width: 100%;
-  padding: 0.45rem 0.75rem;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid var(--border-color);
-  border-radius: var(--radius-sm);
-  color: #fff;
-  font-size: 0.82rem;
-  outline: none;
-}
-
-.algo-list {
-  flex: 1;
-  overflow-y: auto;
-  max-height: 600px;
-  list-style: none;
-}
-
-.algo-item {
-  padding: 0.85rem 1.25rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
-  cursor: pointer;
-  transition: background var(--transition-fast);
-}
-
-.algo-item:hover {
-  background: rgba(255, 255, 255, 0.06);
-}
-
-.algo-item.active {
-  background: rgba(99, 102, 241, 0.15);
-  border-left: 3px solid var(--primary);
-}
-
-.algo-item-num {
-  font-size: 0.72rem;
-  font-weight: 700;
-  color: var(--secondary);
-  text-transform: uppercase;
-}
-
-.algo-item-title {
-  font-size: 0.88rem;
-  font-weight: 600;
-  color: #fff;
-  margin-top: 0.15rem;
-}
-
-/* Algo Detail View */
-.algo-detail {
-  padding: 1.75rem;
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-  overflow-y: auto;
-  max-height: 700px;
-}
-
-.algo-detail-header {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 1rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid var(--border-color);
-}
-
-.algo-detail-title {
-  font-size: 1.4rem;
-}
-
-.algo-detail-desc {
-  font-size: 0.95rem;
-  color: var(--text-secondary);
-  margin-top: 0.4rem;
-}
-
-.algo-tabs {
-  display: flex;
-  gap: 0.5rem;
-  border-bottom: 1px solid var(--border-color);
-  padding-bottom: 0.5rem;
-}
-
-.algo-tab-btn {
-  background: none;
-  border: none;
-  color: var(--text-secondary);
-  font-size: 0.88rem;
-  font-weight: 600;
-  padding: 0.4rem 0.85rem;
-  border-radius: var(--radius-sm);
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  transition: all var(--transition-fast);
-}
-
-.algo-tab-btn.active {
-  color: #fff;
-  background: rgba(99, 102, 241, 0.2);
-}
-
-.algo-view-panel {
-  display: none;
-}
-
-.algo-view-panel.active {
-  display: block;
-}
-
-/* Flowchart Diagram Image Frame */
-.flowchart-frame {
-  background: #000;
-  border: 1px solid var(--border-color);
-  border-radius: var(--radius-md);
-  padding: 1rem;
-  text-align: center;
-  position: relative;
-  cursor: pointer;
-}
-
-.flowchart-frame img {
-  max-height: 480px;
-  margin: 0 auto;
-  object-fit: contain;
-  border-radius: var(--radius-sm);
-}
-
-.flowchart-caption {
-  font-size: 0.8rem;
-  color: var(--text-muted);
-  margin-top: 0.6rem;
-}
-
-/* Code Box */
-.code-container {
-  position: relative;
-  background: #080c14;
-  border: 1px solid var(--border-color);
-  border-radius: var(--radius-md);
-  overflow: hidden;
-}
-
-.code-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0.6rem 1rem;
-  background: rgba(255, 255, 255, 0.03);
-  border-bottom: 1px solid var(--border-color);
-  font-family: var(--font-mono);
-  font-size: 0.78rem;
-  color: var(--text-muted);
-}
-
-.copy-code-btn {
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid var(--border-color);
-  color: var(--text-secondary);
-  font-size: 0.75rem;
-  padding: 0.25rem 0.65rem;
-  border-radius: var(--radius-sm);
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.3rem;
-  transition: all var(--transition-fast);
-}
-
-.copy-code-btn:hover {
-  background: var(--primary);
-  color: #fff;
-}
-
-pre code {
-  display: block;
-  padding: 1.2rem;
-  font-family: var(--font-mono);
-  font-size: 0.86rem;
-  line-height: 1.6;
-  color: #d1d5db;
-  overflow-x: auto;
-  white-space: pre-wrap;
-}
-
-/* ==========================================================================
-   DOWNLOAD CATALOG & RESOURCES
-   ========================================================================== */
-.downloads-table-wrapper {
-  background: var(--bg-card);
-  border: 1px solid var(--border-color);
-  border-radius: var(--radius-lg);
-  overflow: hidden;
-  backdrop-filter: blur(12px);
-}
-
-.downloads-table {
-  width: 100%;
-  border-collapse: collapse;
-  text-align: left;
-}
-
-.downloads-table th,
-.downloads-table td {
-  padding: 1rem 1.4rem;
-  border-bottom: 1px solid var(--border-color);
-  font-size: 0.9rem;
-}
-
-.downloads-table th {
-  background: rgba(255, 255, 255, 0.03);
-  font-weight: 600;
-  color: var(--text-secondary);
-  text-transform: uppercase;
-  font-size: 0.75rem;
-  letter-spacing: 0.05em;
-}
-
-.downloads-table tr:hover td {
-  background: rgba(255, 255, 255, 0.02);
-}
-
-.file-type-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.3rem;
-  font-size: 0.75rem;
-  font-family: var(--font-mono);
-  padding: 0.2rem 0.5rem;
-  border-radius: 4px;
-}
-
-.type-exe { background: rgba(16, 185, 129, 0.15); color: #6ee7b7; }
-.type-uml { background: rgba(99, 102, 241, 0.15); color: #a5b4fc; }
-.type-doc { background: rgba(6, 182, 212, 0.15); color: #67e8f9; }
-.type-git { background: rgba(245, 158, 11, 0.15); color: #fcd34d; }
 
 /* ==========================================================================
    MODAL LIGHTBOX
@@ -1174,43 +883,12 @@ pre code {
   color: var(--text-muted);
 }
 
-/* Toast Notification */
-.toast-msg {
-  position: fixed;
-  bottom: 2rem;
-  right: 2rem;
-  z-index: 10000;
-  background: var(--primary);
-  color: #fff;
-  padding: 0.75rem 1.4rem;
-  border-radius: var(--radius-md);
-  font-size: 0.88rem;
-  font-weight: 600;
-  box-shadow: var(--shadow-lg);
-  transform: translateY(100px);
-  opacity: 0;
-  transition: all 0.3s ease;
-}
-
-.toast-msg.show {
-  transform: translateY(0);
-  opacity: 1;
-}
-
 /* ==========================================================================
    RESPONSIVE DESIGN
    ========================================================================== */
 @media (max-width: 1024px) {
   .hero-grid {
     grid-template-columns: 1fr;
-  }
-  .algo-lab-container {
-    grid-template-columns: 1fr;
-  }
-  .algo-sidebar {
-    max-height: 280px;
-    border-right: none;
-    border-bottom: 1px solid var(--border-color);
   }
   .footer-grid {
     grid-template-columns: 1fr 1fr;

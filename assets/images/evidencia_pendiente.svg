@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-label="Evidencia pendiente">
+  <rect width="800" height="480" fill="#111827"/>
+  <rect x="40" y="40" width="720" height="400" rx="16" fill="none" stroke="#4b5563" stroke-width="3" stroke-dasharray="14 12"/>
+  <path d="M340 180h120a12 12 0 0 1 12 12v96a12 12 0 0 1-12 12H340a12 12 0 0 1-12-12v-96a12 12 0 0 1 12-12zm16 96 34-42 26 30 18-20 34 32z" fill="#6b7280"/>
+  <circle cx="436" cy="206" r="12" fill="#6b7280"/>
+  <text x="400" y="352" fill="#9ca3af" font-family="sans-serif" font-size="28" text-anchor="middle">Evidencia pendiente</text>
+</svg>
